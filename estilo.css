@@ -1,0 +1,35 @@
+#rodape{
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body{
+    margin: 0px;
+}
+
+#menu_top{
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+#menu_top a{
+    text-decoration: none;
+}
+#menu_top a:visited{
+    color: blue;
+}
+#menu_top a:hover{
+    color: red
+}
+
+#conteudo{
+    background-color: lightcyan;
+    width: 100%;
+    min-height: 500px;
+    border: none;
+}
