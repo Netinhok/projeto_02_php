@@ -33,3 +33,70 @@ body{
     min-height: 500px;
     border: none;
 }
+
+#caixa_login{
+    border: 1px solid blue;
+    box-shadow: 0px 0px 10px blue;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(247, 247, 247);
+}
+
+#caixa_login input{
+    text-align: center;
+    padding: 10px;
+    outline: none;
+    transition: all 0.5s;
+}
+
+#caixa_login input:focus{
+    border: 1px solid blue;
+    box-shadow: 0px 0px 5px blue;
+}
+
+#caixa_login button{
+    width: 100%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#caixa_login span{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cartoes{
+    background-color: white;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+    margin-right: 50px;
+    transition: all 0.5s;
+}
+
+.cartoes:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px cornflowerblue;
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+#materiais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}

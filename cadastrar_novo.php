@@ -1,1 +1,4 @@
-<h1>qualquer coisa literalmente realmente qualquer coisa</h1>
+<?php
+    include "verificar_logado.php";
+?>
+<h1>Cadastrar novo item</h1>
