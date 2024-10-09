@@ -18,6 +18,7 @@ try{
     if($resultado){
         session_start();
         $_SESSION['logado'] = 'Sim';
+        $_SESSION['nome'] = $resultado['nome_completo'];
         header("Location: index.php");
     }else{
         header('Location: login.php?erro1=sim');

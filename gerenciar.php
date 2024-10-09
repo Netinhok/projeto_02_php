@@ -28,14 +28,19 @@
             $categoria = $item['categoria'];
 
             echo "
-                    <div class='cartoes'
-                        <h3>Nº $codigo</h3>
-                        <p>$descricao</p>
-                        <p>Setor: $setor</p>
-                        <p>Categoria: $categoria</p>
-                        <button> ✏Editar</button>
-                        <button> 🗑Deletar</button>
-                    </div>
+                <div class='cartoes'
+                    <h3>Nº $codigo</h3>
+                    <p>$descricao</p>
+                    <p>Setor: $setor</p>
+                    <p>Categoria: $categoria</p>
+                    <a href='formulario_editar.php?cod=$codigo'>
+                    <button>✏Editar</button>
+                    </a>
+
+                    <a href='confirmar_deletar.php?cod=$codigo'>
+                        <button>🗑Deletar</button>
+                    </a>
+                </div>
             ";
         }
         echo "<div>";

@@ -1,11 +1,11 @@
 <?php
-    include "menu_top.php";
     include "verificar_logado.php";
+    include "menu_top.php";
 ?>
 <html>
     <body>
-        <iframe id="conteudo" name="conteudo">
 
+        <iframe src="bem-vindo.php" id="conteudo" name="conteudo">
         </iframe>
     </body>
 </html>

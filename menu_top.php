@@ -12,7 +12,7 @@
         <a href="index.php">Inicio</a>
         <a href="gerenciar.php" target="conteudo">Gerenciar materiais</a>
         <a href="cadastrar_novo.php" target="conteudo">Cadastrar material</a>
-        <a href="logout.php">Sair</a>
+        <a href="logout.php">(<?php echo $_SESSION['nome'];?>) Sair</a>
     </div>
 </body>
 </html>
